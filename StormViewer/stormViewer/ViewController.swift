@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  StormViewer
+//  stormViewer
 //
 //  Created by Mohammed Drame on 10/30/19.
 //  Copyright © 2019 Mo Drame. All rights reserved.

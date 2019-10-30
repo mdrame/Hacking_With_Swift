@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77C3BB6D236A5088006095B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BB6C236A5088006095B8 /* AppDelegate.swift */; };
-		77C3BB6F236A5088006095B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BB6E236A5088006095B8 /* SceneDelegate.swift */; };
-		77C3BB71236A5088006095B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BB70236A5088006095B8 /* ViewController.swift */; };
-		77C3BB74236A5088006095B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C3BB72236A5088006095B8 /* Main.storyboard */; };
-		77C3BB76236A5089006095B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C3BB75236A5089006095B8 /* Assets.xcassets */; };
-		77C3BB79236A5089006095B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C3BB77236A5089006095B8 /* LaunchScreen.storyboard */; };
+		77C3BB93236A540C006095B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BB92236A540C006095B8 /* AppDelegate.swift */; };
+		77C3BB95236A540C006095B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BB94236A540C006095B8 /* SceneDelegate.swift */; };
+		77C3BB97236A540C006095B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BB96236A540C006095B8 /* ViewController.swift */; };
+		77C3BB9A236A540C006095B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C3BB98236A540C006095B8 /* Main.storyboard */; };
+		77C3BB9C236A540D006095B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C3BB9B236A540D006095B8 /* Assets.xcassets */; };
+		77C3BB9F236A540D006095B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C3BB9D236A540D006095B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		77C3BB69236A5088006095B8 /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77C3BB6C236A5088006095B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77C3BB6E236A5088006095B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77C3BB70236A5088006095B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77C3BB73236A5088006095B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77C3BB75236A5089006095B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77C3BB78236A5089006095B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77C3BB7A236A5089006095B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C3BB8F236A540C006095B8 /* stormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C3BB92236A540C006095B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77C3BB94236A540C006095B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77C3BB96236A540C006095B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77C3BB99236A540C006095B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77C3BB9B236A540D006095B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C3BB9E236A540D006095B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77C3BBA0236A540D006095B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77C3BB66236A5088006095B8 /* Frameworks */ = {
+		77C3BB8C236A540C006095B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77C3BB60236A5088006095B8 = {
+		77C3BB86236A540C006095B8 = {
 			isa = PBXGroup;
 			children = (
-				77C3BB6B236A5088006095B8 /* StormViewer */,
-				77C3BB6A236A5088006095B8 /* Products */,
+				77C3BB91236A540C006095B8 /* stormViewer */,
+				77C3BB90236A540C006095B8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		77C3BB6A236A5088006095B8 /* Products */ = {
+		77C3BB90236A540C006095B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77C3BB69236A5088006095B8 /* StormViewer.app */,
+				77C3BB8F236A540C006095B8 /* stormViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77C3BB6B236A5088006095B8 /* StormViewer */ = {
+		77C3BB91236A540C006095B8 /* stormViewer */ = {
 			isa = PBXGroup;
 			children = (
-				77C3BB6C236A5088006095B8 /* AppDelegate.swift */,
-				77C3BB6E236A5088006095B8 /* SceneDelegate.swift */,
-				77C3BB70236A5088006095B8 /* ViewController.swift */,
-				77C3BB72236A5088006095B8 /* Main.storyboard */,
-				77C3BB75236A5089006095B8 /* Assets.xcassets */,
-				77C3BB77236A5089006095B8 /* LaunchScreen.storyboard */,
-				77C3BB7A236A5089006095B8 /* Info.plist */,
+				77C3BB92236A540C006095B8 /* AppDelegate.swift */,
+				77C3BB94236A540C006095B8 /* SceneDelegate.swift */,
+				77C3BB96236A540C006095B8 /* ViewController.swift */,
+				77C3BB98236A540C006095B8 /* Main.storyboard */,
+				77C3BB9B236A540D006095B8 /* Assets.xcassets */,
+				77C3BB9D236A540D006095B8 /* LaunchScreen.storyboard */,
+				77C3BBA0236A540D006095B8 /* Info.plist */,
 			);
-			path = StormViewer;
+			path = stormViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77C3BB68236A5088006095B8 /* StormViewer */ = {
+		77C3BB8E236A540C006095B8 /* stormViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77C3BB7D236A5089006095B8 /* Build configuration list for PBXNativeTarget "StormViewer" */;
+			buildConfigurationList = 77C3BBA3236A540D006095B8 /* Build configuration list for PBXNativeTarget "stormViewer" */;
 			buildPhases = (
-				77C3BB65236A5088006095B8 /* Sources */,
-				77C3BB66236A5088006095B8 /* Frameworks */,
-				77C3BB67236A5088006095B8 /* Resources */,
+				77C3BB8B236A540C006095B8 /* Sources */,
+				77C3BB8C236A540C006095B8 /* Frameworks */,
+				77C3BB8D236A540C006095B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StormViewer;
-			productName = StormViewer;
-			productReference = 77C3BB69236A5088006095B8 /* StormViewer.app */;
+			name = stormViewer;
+			productName = stormViewer;
+			productReference = 77C3BB8F236A540C006095B8 /* stormViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		77C3BB61236A5088006095B8 /* Project object */ = {
+		77C3BB87236A540C006095B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Mo Drame";
 				TargetAttributes = {
-					77C3BB68236A5088006095B8 = {
+					77C3BB8E236A540C006095B8 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 77C3BB64236A5088006095B8 /* Build configuration list for PBXProject "StormViewer" */;
+			buildConfigurationList = 77C3BB8A236A540C006095B8 /* Build configuration list for PBXProject "stormViewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 77C3BB60236A5088006095B8;
-			productRefGroup = 77C3BB6A236A5088006095B8 /* Products */;
+			mainGroup = 77C3BB86236A540C006095B8;
+			productRefGroup = 77C3BB90236A540C006095B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77C3BB68236A5088006095B8 /* StormViewer */,
+				77C3BB8E236A540C006095B8 /* stormViewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77C3BB67236A5088006095B8 /* Resources */ = {
+		77C3BB8D236A540C006095B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C3BB79236A5089006095B8 /* LaunchScreen.storyboard in Resources */,
-				77C3BB76236A5089006095B8 /* Assets.xcassets in Resources */,
-				77C3BB74236A5088006095B8 /* Main.storyboard in Resources */,
+				77C3BB9F236A540D006095B8 /* LaunchScreen.storyboard in Resources */,
+				77C3BB9C236A540D006095B8 /* Assets.xcassets in Resources */,
+				77C3BB9A236A540C006095B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77C3BB65236A5088006095B8 /* Sources */ = {
+		77C3BB8B236A540C006095B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C3BB71236A5088006095B8 /* ViewController.swift in Sources */,
-				77C3BB6D236A5088006095B8 /* AppDelegate.swift in Sources */,
-				77C3BB6F236A5088006095B8 /* SceneDelegate.swift in Sources */,
+				77C3BB97236A540C006095B8 /* ViewController.swift in Sources */,
+				77C3BB93236A540C006095B8 /* AppDelegate.swift in Sources */,
+				77C3BB95236A540C006095B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77C3BB72236A5088006095B8 /* Main.storyboard */ = {
+		77C3BB98236A540C006095B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77C3BB73236A5088006095B8 /* Base */,
+				77C3BB99236A540C006095B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		77C3BB77236A5089006095B8 /* LaunchScreen.storyboard */ = {
+		77C3BB9D236A540D006095B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77C3BB78236A5089006095B8 /* Base */,
+				77C3BB9E236A540D006095B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		77C3BB7B236A5089006095B8 /* Debug */ = {
+		77C3BBA1236A540D006095B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		77C3BB7C236A5089006095B8 /* Release */ = {
+		77C3BBA2236A540D006095B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,64 +280,64 @@
 			};
 			name = Release;
 		};
-		77C3BB7E236A5089006095B8 /* Debug */ = {
+		77C3BBA4236A540D006095B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AY5G84ET7;
-				INFOPLIST_FILE = StormViewer/Info.plist;
+				INFOPLIST_FILE = stormViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.StormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.stormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		77C3BB7F236A5089006095B8 /* Release */ = {
+		77C3BBA5236A540D006095B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AY5G84ET7;
-				INFOPLIST_FILE = StormViewer/Info.plist;
+				INFOPLIST_FILE = stormViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.StormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.stormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77C3BB64236A5088006095B8 /* Build configuration list for PBXProject "StormViewer" */ = {
+		77C3BB8A236A540C006095B8 /* Build configuration list for PBXProject "stormViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77C3BB7B236A5089006095B8 /* Debug */,
-				77C3BB7C236A5089006095B8 /* Release */,
+				77C3BBA1236A540D006095B8 /* Debug */,
+				77C3BBA2236A540D006095B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77C3BB7D236A5089006095B8 /* Build configuration list for PBXNativeTarget "StormViewer" */ = {
+		77C3BBA3236A540D006095B8 /* Build configuration list for PBXNativeTarget "stormViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77C3BB7E236A5089006095B8 /* Debug */,
-				77C3BB7F236A5089006095B8 /* Release */,
+				77C3BBA4236A540D006095B8 /* Debug */,
+				77C3BBA5236A540D006095B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 77C3BB61236A5088006095B8 /* Project object */;
+	rootObject = 77C3BB87236A540C006095B8 /* Project object */;
 }
