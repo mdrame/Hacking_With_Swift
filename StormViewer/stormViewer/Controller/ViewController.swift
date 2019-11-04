@@ -25,6 +25,9 @@ class ViewController: UITableViewController {
     } // viewDidload ends here
     
     
+ 
+    
+    
     
     // tablview protocle and delegates under
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,11 +43,17 @@ class ViewController: UITableViewController {
     
     // this function run  if user select a index on the table view 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // print(indexPath)
         if let vc = storyboard?.instantiateViewController(identifier: "DetailVC") as? DetailViewController {
             vc.seletedName = dataBase[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
+        } else {
+            print("Could not find ViewController ")
         }
         
     }
+    
+    
+    
 }
 
