@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  WebKit
+//  wordPlay
 //
-//  Created by Mohammed Drame on 11/2/19.
+//  Created by Mohammed Drame on 11/6/19.
 //  Copyright © 2019 Mo Drame. All rights reserved.
 //
 
