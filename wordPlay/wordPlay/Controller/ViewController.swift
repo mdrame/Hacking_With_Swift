@@ -60,7 +60,6 @@ class ViewController: UITableViewController {
     func submit(_ answer: String) {
         
         // do bunch of checking
-        
         usedWords.insert(answer, at: 0)
         let indexPath = IndexPath(row: 0, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
