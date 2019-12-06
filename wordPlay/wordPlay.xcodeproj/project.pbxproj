@@ -11,9 +11,9 @@
 		77957A7A2373ADF900ECBE3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77957A792373ADF900ECBE3B /* SceneDelegate.swift */; };
 		77957A7C2373ADF900ECBE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77957A7B2373ADF900ECBE3B /* ViewController.swift */; };
 		77957A7F2373ADF900ECBE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77957A7D2373ADF900ECBE3B /* Main.storyboard */; };
-		77957A812373ADFA00ECBE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77957A802373ADFA00ECBE3B /* Assets.xcassets */; };
 		77957A842373ADFA00ECBE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77957A822373ADFA00ECBE3B /* LaunchScreen.storyboard */; };
-		77957A8C2373B71600ECBE3B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77957A8B2373B71600ECBE3B /* start.txt */; };
+		77E6AB302396557B00FCD4E1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6AB2F2396557B00FCD4E1 /* Media.xcassets */; };
+		77E6AB3223967E1B00FCD4E1 /* WarningCustombutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB3123967E1B00FCD4E1 /* WarningCustombutton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		77957A792373ADF900ECBE3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		77957A7B2373ADF900ECBE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77957A7E2373ADF900ECBE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77957A802373ADFA00ECBE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77957A832373ADFA00ECBE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77957A852373ADFA00ECBE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77957A8B2373B71600ECBE3B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		77E6AB2F2396557B00FCD4E1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		77E6AB3123967E1B00FCD4E1 /* WarningCustombutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningCustombutton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,6 @@
 				77957A8F2373B73800ECBE3B /* Model */,
 				77957A8D2373B71C00ECBE3B /* View */,
 				77957A8E2373B72500ECBE3B /* Controller */,
-				77957A802373ADFA00ECBE3B /* Assets.xcassets */,
 				77957A822373ADFA00ECBE3B /* LaunchScreen.storyboard */,
 				77957A852373ADFA00ECBE3B /* Info.plist */,
 			);
@@ -74,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				77957A7D2373ADF900ECBE3B /* Main.storyboard */,
+				77E6AB3123967E1B00FCD4E1 /* WarningCustombutton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				77957A7B2373ADF900ECBE3B /* ViewController.swift */,
+				77E6AB2F2396557B00FCD4E1 /* Media.xcassets */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -89,7 +90,6 @@
 		77957A8F2373B73800ECBE3B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				77957A8B2373B71600ECBE3B /* start.txt */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,8 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77957A842373ADFA00ECBE3B /* LaunchScreen.storyboard in Resources */,
-				77957A8C2373B71600ECBE3B /* start.txt in Resources */,
-				77957A812373ADFA00ECBE3B /* Assets.xcassets in Resources */,
+				77E6AB302396557B00FCD4E1 /* Media.xcassets in Resources */,
 				77957A7F2373ADF900ECBE3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77957A7C2373ADF900ECBE3B /* ViewController.swift in Sources */,
+				77E6AB3223967E1B00FCD4E1 /* WarningCustombutton.swift in Sources */,
 				77957A782373ADF900ECBE3B /* AppDelegate.swift in Sources */,
 				77957A7A2373ADF900ECBE3B /* SceneDelegate.swift in Sources */,
 			);
@@ -311,7 +311,6 @@
 		77957A892373ADFA00ECBE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AY5G84ET7;
 				INFOPLIST_FILE = wordPlay/Info.plist;
@@ -329,7 +328,6 @@
 		77957A8A2373ADFA00ECBE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AY5G84ET7;
 				INFOPLIST_FILE = wordPlay/Info.plist;
