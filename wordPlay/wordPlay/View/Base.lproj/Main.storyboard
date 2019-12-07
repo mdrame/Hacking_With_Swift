@@ -15,21 +15,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oex-oa-u41" customClass="WarningCustombutton" customModule="wordPlay" customModuleProvider="target">
-                                <rect key="frame" x="100" y="145" width="214" height="108"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qk7-S4-tp3">
+                                <rect key="frame" x="174" y="568" width="82" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.089098267257213593" green="0.67485052347183228" blue="0.72460085153579712" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="46"/>
+                                <color key="tintColor" red="0.1318426728" green="0.14392179250000001" blue="0.15860596299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="👅"/>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="Du9-8J-aTc" eventType="touchUpInside" id="pbU-wx-y1B"/>
+                                    <action selector="buttons:" destination="Du9-8J-aTc" eventType="touchUpInside" id="Gkp-Mb-2HZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="3" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8o-LU-Lev">
+                                <rect key="frame" x="90" y="655" width="82" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83373552560806274" green="0.7056240439414978" blue="0.082265205681324005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="46"/>
+                                <color key="tintColor" red="0.1318426728" green="0.14392179250000001" blue="0.15860596299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="⚙️"/>
+                                <connections>
+                                    <action selector="buttons:" destination="Du9-8J-aTc" eventType="touchUpInside" id="w9A-Jo-RMm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4X-nn-dyW">
+                                <rect key="frame" x="256" y="655" width="82" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52422803640365601" green="0.087705142796039581" blue="0.65942800045013428" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="46"/>
+                                <color key="tintColor" red="0.1318426728" green="0.14392179250000001" blue="0.15860596299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="🌪"/>
+                                <connections>
+                                    <action selector="buttons:" destination="Du9-8J-aTc" eventType="touchUpInside" id="odl-kw-PCj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUT-LM-R0F">
+                                <rect key="frame" x="174" y="752" width="82" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1318426728" green="0.14392179250000001" blue="0.15860596299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="46"/>
+                                <color key="tintColor" red="0.1318426728" green="0.14392179250000001" blue="0.15860596299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="♥"/>
+                                <connections>
+                                    <action selector="buttons:" destination="Du9-8J-aTc" eventType="touchUpInside" id="K7p-Oi-MZp"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1GO-BQ-MFC">
+                                <rect key="frame" x="23" y="57" width="369" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ADu-iU-hYW">
+                                <rect key="frame" x="23" y="259" width="369" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.075579382479190826" green="0.7736964225769043" blue="0.44792360067367554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibD-zI-ftc">
+                                <rect key="frame" x="25" y="454" width="369" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.091012589633464813" green="0.31916877627372742" blue="0.50317251682281494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.95883557779162121" green="0.95146737463906961" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="jm7-Qp-Pgh"/>
                     </view>
                     <navigationItem key="navigationItem" id="lPD-eA-shN"/>
                     <connections>
-                        <outlet property="orange" destination="oex-oa-u41" id="TAs-VQ-dwN"/>
+                        <outlet property="herocain" destination="P4X-nn-dyW" id="x7Y-Ut-yky"/>
+                        <outlet property="love" destination="QUT-LM-R0F" id="QHx-dK-iYr"/>
+                        <outlet property="setting" destination="f8o-LU-Lev" id="Pwf-x0-SJ0"/>
+                        <outlet property="tong" destination="qk7-S4-tp3" id="GSh-xu-RpG"/>
+                        <outletCollection property="buttonsOutlet" destination="QUT-LM-R0F" collectionClass="NSMutableArray" id="7Kw-yw-qOD"/>
+                        <outletCollection property="buttonsOutlet" destination="P4X-nn-dyW" collectionClass="NSMutableArray" id="xLK-DM-414"/>
+                        <outletCollection property="buttonsOutlet" destination="qk7-S4-tp3" collectionClass="NSMutableArray" id="drR-WU-dvg"/>
+                        <outletCollection property="buttonsOutlet" destination="f8o-LU-Lev" collectionClass="NSMutableArray" id="QhU-0a-hFf"/>
+                        <outletCollection property="views" destination="1GO-BQ-MFC" collectionClass="NSMutableArray" id="FNR-4a-Xwr"/>
+                        <outletCollection property="views" destination="ADu-iU-hYW" collectionClass="NSMutableArray" id="2lU-0o-0vz"/>
+                        <outletCollection property="views" destination="ibD-zI-ftc" collectionClass="NSMutableArray" id="DgX-i1-4dy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iog-jc-C5Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
