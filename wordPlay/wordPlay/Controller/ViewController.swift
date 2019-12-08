@@ -11,27 +11,30 @@ import UIKit
 class ViewController: UIViewController {
     
     // Collection  of buttons
-    @IBOutlet var buttonsOutlet: [UIButton]!
+    @IBOutlet var buttonsOutlet: [UIView]!
     
     // Outlet
     @IBOutlet weak var tong: UIButton!
     @IBOutlet weak var herocain: UIButton!
     @IBOutlet weak var love: UIButton!
     @IBOutlet weak var setting: UIButton!
+   
+    @IBOutlet weak var red: UIView!
     
+    @IBOutlet weak var yelow: UIView!
+    
+    @IBOutlet weak var green: UIView!
+    // Inside First view views outlets
+    
+    // Global Variables
     var tongInitLocation: CGPoint!
     var herocainInitLocation: CGPoint!
     var loveInitLocation: CGPoint!
     var settingInitLocation: CGPoint!
     
-    
-    @IBOutlet var views: [UIView]!
-    
-    
-    
-    // Global Variable
     var switchButton: Bool = false
     
+
     
     func buttonslayoutStuff() {
         for buttons in buttonsOutlet{
@@ -39,12 +42,25 @@ class ViewController: UIViewController {
         }
     }
     
-    func viewslayoutStuff() {
-           for views in views{
-               views.layer.cornerRadius = 15
-           }
-       }
     
+    
+    
+    func moveRight() {
+       
+        red.center.x += 100
+
+    }
+    
+    
+    func moveLeft() {
+       
+        red.center.x -= 15
+    
+    }
+    
+    
+    
+    // positing all button in  under the love button
     func hideButtonBehindHomeButton() {
         for buttons in buttonsOutlet {
             buttons.center = love.center
@@ -63,10 +79,16 @@ class ViewController: UIViewController {
         settingInitLocation = setting.center
         
         
-        
+        // func calls
         buttonslayoutStuff()
-        viewslayoutStuff()
+      
         hideButtonBehindHomeButton()
+        
+        red.layer.cornerRadius = 15
+        
+       
+        
+     
         
       
     
@@ -97,7 +119,7 @@ class ViewController: UIViewController {
     
     
     
-    
+    // Assigning buttons colors depending on switchButton Value.
     @IBAction func buttons(_ sender: UIButton) {
         switchButton.toggle() // the first time user hit the button represent on / pushupinside
         switch sender.tag {

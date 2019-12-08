@@ -59,20 +59,29 @@
                                     <action selector="buttons:" destination="Du9-8J-aTc" eventType="touchUpInside" id="K7p-Oi-MZp"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1GO-BQ-MFC">
-                                <rect key="frame" x="23" y="57" width="369" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ADu-iU-hYW">
-                                <rect key="frame" x="23" y="259" width="369" height="181"/>
+                                <rect key="frame" x="33" y="429" width="99" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.075579382479190826" green="0.7736964225769043" blue="0.44792360067367554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibD-zI-ftc">
-                                <rect key="frame" x="25" y="454" width="369" height="106"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVu-eY-ehZ">
+                                <rect key="frame" x="33" y="252" width="99" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.091012589633464813" green="0.31916877627372742" blue="0.50317251682281494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1n9-cZ-yTu">
+                                <rect key="frame" x="191" y="130" width="48" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqr-OG-jff">
+                                        <rect key="frame" x="8" y="10" width="29" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.95883557779162121" green="0.95146737463906961" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,17 +89,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="lPD-eA-shN"/>
                     <connections>
+                        <outlet property="green" destination="ADu-iU-hYW" id="JJa-9R-H5w"/>
                         <outlet property="herocain" destination="P4X-nn-dyW" id="x7Y-Ut-yky"/>
                         <outlet property="love" destination="QUT-LM-R0F" id="QHx-dK-iYr"/>
+                        <outlet property="red" destination="1n9-cZ-yTu" id="CjZ-ZZ-y7n"/>
                         <outlet property="setting" destination="f8o-LU-Lev" id="Pwf-x0-SJ0"/>
                         <outlet property="tong" destination="qk7-S4-tp3" id="GSh-xu-RpG"/>
+                        <outlet property="yelow" destination="IVu-eY-ehZ" id="vDI-BC-JVt"/>
                         <outletCollection property="buttonsOutlet" destination="QUT-LM-R0F" collectionClass="NSMutableArray" id="7Kw-yw-qOD"/>
                         <outletCollection property="buttonsOutlet" destination="P4X-nn-dyW" collectionClass="NSMutableArray" id="xLK-DM-414"/>
                         <outletCollection property="buttonsOutlet" destination="qk7-S4-tp3" collectionClass="NSMutableArray" id="drR-WU-dvg"/>
                         <outletCollection property="buttonsOutlet" destination="f8o-LU-Lev" collectionClass="NSMutableArray" id="QhU-0a-hFf"/>
-                        <outletCollection property="views" destination="1GO-BQ-MFC" collectionClass="NSMutableArray" id="FNR-4a-Xwr"/>
-                        <outletCollection property="views" destination="ADu-iU-hYW" collectionClass="NSMutableArray" id="2lU-0o-0vz"/>
-                        <outletCollection property="views" destination="ibD-zI-ftc" collectionClass="NSMutableArray" id="DgX-i1-4dy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iog-jc-C5Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
