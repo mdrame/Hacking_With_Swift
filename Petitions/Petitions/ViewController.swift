@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
     
+    let peittiton = [String]()
    
     
   
@@ -17,15 +18,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
+        
       
     }
     
-    // NSTimmer
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
     
-    // UIGesture
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = "Tittle"
+        cell.detailTextLabel?.text = "Description goes here"
+        return cell
+    }
     
-    // Swift Data Structure
-    
+
     
   
     

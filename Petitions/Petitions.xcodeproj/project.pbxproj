@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7703124C239F072700E1F4AD /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7703124B239F072700E1F4AD /* Petition.swift */; };
 		77621ED623769A710013CBDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77621ED523769A710013CBDF /* AppDelegate.swift */; };
 		77621ED823769A710013CBDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77621ED723769A710013CBDF /* SceneDelegate.swift */; };
 		77621EDA23769A710013CBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77621ED923769A710013CBDF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7703124B239F072700E1F4AD /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		77621ED223769A710013CBDF /* Petitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77621ED523769A710013CBDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77621ED723769A710013CBDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7703124A239F06E800E1F4AD /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				77621EDE23769A730013CBDF /* Assets.xcassets */,
+				77621ED523769A710013CBDF /* AppDelegate.swift */,
+				77621ED723769A710013CBDF /* SceneDelegate.swift */,
+				77621EE023769A730013CBDF /* LaunchScreen.storyboard */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		77621EC923769A710013CBDF = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +69,10 @@
 		77621ED423769A710013CBDF /* Petitions */ = {
 			isa = PBXGroup;
 			children = (
-				77621ED523769A710013CBDF /* AppDelegate.swift */,
-				77621ED723769A710013CBDF /* SceneDelegate.swift */,
+				7703124A239F06E800E1F4AD /* helper */,
 				77621ED923769A710013CBDF /* ViewController.swift */,
+				7703124B239F072700E1F4AD /* Petition.swift */,
 				77621EDB23769A710013CBDF /* Main.storyboard */,
-				77621EDE23769A730013CBDF /* Assets.xcassets */,
-				77621EE023769A730013CBDF /* LaunchScreen.storyboard */,
 				77621EE323769A730013CBDF /* Info.plist */,
 			);
 			path = Petitions;
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77621EDA23769A710013CBDF /* ViewController.swift in Sources */,
+				7703124C239F072700E1F4AD /* Petition.swift in Sources */,
 				77621ED623769A710013CBDF /* AppDelegate.swift in Sources */,
 				77621ED823769A710013CBDF /* SceneDelegate.swift in Sources */,
 			);
