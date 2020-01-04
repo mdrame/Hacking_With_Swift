@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -120,7 +120,6 @@
 				C2D0402C3FA0C14C77999E67 /* Pods-wordPlay.debug.xcconfig */,
 				077DFC7DA1F59B592FC52D1C /* Pods-wordPlay.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

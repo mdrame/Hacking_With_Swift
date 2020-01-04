@@ -12,15 +12,10 @@ class HomeViewController: UIViewController {
     
     
     // Outlets
-    @IBOutlet weak var heartButtonOutlet: UIButton!
-    
-    
-    // variables
-  
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+      
         
 
         // Do any additional setup after loading the view.
@@ -30,14 +25,7 @@ class HomeViewController: UIViewController {
     
     // Actions
     
-    @IBAction func buttonPressed(_ sender: UIButton) {
- 
-        
-    }
-    
-    
-
-
+  
     
     
 
