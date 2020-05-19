@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  apiCall
+//  navigationPratice
 //
-//  Created by Mohammed Drame on 12/11/19.
-//  Copyright © 2019 Mo Drame. All rights reserved.
+//  Created by Mohammed Drame on 2/3/20.
+//  Copyright © 2020 Mo Drame. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-   
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -34,5 +34,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
 

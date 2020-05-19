@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7705057D24734B09000E0D2F /* AppNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705057C24734B09000E0D2F /* AppNameLabel.swift */; };
+		7705057F24735483000E0D2F /* LogoCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705057E24735483000E0D2F /* LogoCustomClass.swift */; };
+		7705058124735747000E0D2F /* mbr-1014x792.png in Resources */ = {isa = PBXBuildFile; fileRef = 7705058024735747000E0D2F /* mbr-1014x792.png */; };
+		7705058324736269000E0D2F /* DifficultyLevelsCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705058224736269000E0D2F /* DifficultyLevelsCustomButton.swift */; };
+		7705058524736B4D000E0D2F /* DashBoardScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705058424736B4D000E0D2F /* DashBoardScoreLabel.swift */; };
+		77050587247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77050586247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift */; };
 		775C734C23A0F34500A308B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C734B23A0F34500A308B4 /* AppDelegate.swift */; };
 		775C734E23A0F34600A308B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C734D23A0F34600A308B4 /* SceneDelegate.swift */; };
-		775C735023A0F34600A308B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C734F23A0F34600A308B4 /* ViewController.swift */; };
-		775C735323A0F34600A308B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775C735123A0F34600A308B4 /* Main.storyboard */; };
 		775C735523A0F34700A308B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775C735423A0F34700A308B4 /* Assets.xcassets */; };
 		775C735823A0F34700A308B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775C735623A0F34700A308B4 /* LaunchScreen.storyboard */; };
-		775C736123A0F90100A308B4 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C736023A0F90100A308B4 /* WeatherManager.swift */; };
+		77D4386623CD3BAD000F0C0E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D4386523CD3BAD000F0C0E /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7705057C24734B09000E0D2F /* AppNameLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNameLabel.swift; sourceTree = "<group>"; };
+		7705057E24735483000E0D2F /* LogoCustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoCustomClass.swift; sourceTree = "<group>"; };
+		7705058024735747000E0D2F /* mbr-1014x792.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbr-1014x792.png"; sourceTree = "<group>"; };
+		7705058224736269000E0D2F /* DifficultyLevelsCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevelsCustomButton.swift; sourceTree = "<group>"; };
+		7705058424736B4D000E0D2F /* DashBoardScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardScoreLabel.swift; sourceTree = "<group>"; };
+		77050586247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewForDashBoardButtonAndLabel.swift; sourceTree = "<group>"; };
 		775C734823A0F34500A308B4 /* apiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775C734B23A0F34500A308B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775C734D23A0F34600A308B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		775C734F23A0F34600A308B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		775C735223A0F34600A308B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		775C735423A0F34700A308B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775C735723A0F34700A308B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775C735923A0F34700A308B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		775C736023A0F90100A308B4 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		77D4386523CD3BAD000F0C0E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7705057924734A93000E0D2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77D4386523CD3BAD000F0C0E /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7705057A24734AA9000E0D2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7705057B24734AAF000E0D2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7705057C24734B09000E0D2F /* AppNameLabel.swift */,
+				7705057E24735483000E0D2F /* LogoCustomClass.swift */,
+				7705058224736269000E0D2F /* DifficultyLevelsCustomButton.swift */,
+				7705058424736B4D000E0D2F /* DashBoardScoreLabel.swift */,
+				77050586247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		775C733F23A0F34500A308B4 = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				775C735F23A0F37200A308B4 /* helper */,
-				775C734F23A0F34600A308B4 /* ViewController.swift */,
-				775C736023A0F90100A308B4 /* WeatherManager.swift */,
-				775C735123A0F34600A308B4 /* Main.storyboard */,
+				7705057A24734AA9000E0D2F /* Models */,
+				7705057B24734AAF000E0D2F /* Views */,
+				7705057924734A93000E0D2F /* Controllers */,
 				775C735923A0F34700A308B4 /* Info.plist */,
+				7705058024735747000E0D2F /* mbr-1014x792.png */,
 			);
 			path = apiCall;
 			sourceTree = "<group>";
@@ -138,7 +174,7 @@
 			files = (
 				775C735823A0F34700A308B4 /* LaunchScreen.storyboard in Resources */,
 				775C735523A0F34700A308B4 /* Assets.xcassets in Resources */,
-				775C735323A0F34600A308B4 /* Main.storyboard in Resources */,
+				7705058124735747000E0D2F /* mbr-1014x792.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,24 +185,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775C735023A0F34600A308B4 /* ViewController.swift in Sources */,
+				7705057F24735483000E0D2F /* LogoCustomClass.swift in Sources */,
 				775C734C23A0F34500A308B4 /* AppDelegate.swift in Sources */,
-				775C736123A0F90100A308B4 /* WeatherManager.swift in Sources */,
+				77D4386623CD3BAD000F0C0E /* HomeViewController.swift in Sources */,
+				77050587247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift in Sources */,
 				775C734E23A0F34600A308B4 /* SceneDelegate.swift in Sources */,
+				7705058524736B4D000E0D2F /* DashBoardScoreLabel.swift in Sources */,
+				7705058324736269000E0D2F /* DifficultyLevelsCustomButton.swift in Sources */,
+				7705057D24734B09000E0D2F /* AppNameLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		775C735123A0F34600A308B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				775C735223A0F34600A308B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		775C735623A0F34700A308B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
