@@ -13,6 +13,7 @@
 		7705058324736269000E0D2F /* DifficultyLevelsCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705058224736269000E0D2F /* DifficultyLevelsCustomButton.swift */; };
 		7705058524736B4D000E0D2F /* DashBoardScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7705058424736B4D000E0D2F /* DashBoardScoreLabel.swift */; };
 		77050587247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77050586247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift */; };
+		77050589247623C8000E0D2F /* ButtonsHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77050588247623C8000E0D2F /* ButtonsHeight.swift */; };
 		775C734C23A0F34500A308B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C734B23A0F34500A308B4 /* AppDelegate.swift */; };
 		775C734E23A0F34600A308B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C734D23A0F34600A308B4 /* SceneDelegate.swift */; };
 		775C735523A0F34700A308B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775C735423A0F34700A308B4 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		7705058224736269000E0D2F /* DifficultyLevelsCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevelsCustomButton.swift; sourceTree = "<group>"; };
 		7705058424736B4D000E0D2F /* DashBoardScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardScoreLabel.swift; sourceTree = "<group>"; };
 		77050586247371E2000E0D2F /* StackViewForDashBoardButtonAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewForDashBoardButtonAndLabel.swift; sourceTree = "<group>"; };
+		77050588247623C8000E0D2F /* ButtonsHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsHeight.swift; sourceTree = "<group>"; };
 		775C734823A0F34500A308B4 /* apiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775C734B23A0F34500A308B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775C734D23A0F34600A308B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		7705057A24734AA9000E0D2F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77050588247623C8000E0D2F /* ButtonsHeight.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				775C734E23A0F34600A308B4 /* SceneDelegate.swift in Sources */,
 				7705058524736B4D000E0D2F /* DashBoardScoreLabel.swift in Sources */,
 				7705058324736269000E0D2F /* DifficultyLevelsCustomButton.swift in Sources */,
+				77050589247623C8000E0D2F /* ButtonsHeight.swift in Sources */,
 				7705057D24734B09000E0D2F /* AppNameLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

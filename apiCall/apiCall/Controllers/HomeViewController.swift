@@ -13,17 +13,24 @@ class HomeViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.setNavigationBarHidden(true, animated: false)
-        view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        
+        view.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        print(buttonsHeight.text())
         addSubViewsToView()
+//        
+//        UIView.animate(withDuration: <#T##TimeInterval#>, delay: <#T##TimeInterval#>, options: [.curveLinear, .repeat], animations: <#T##() -> Void#>, completion: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
     }
+    
+    // MARK: INSTACE
+    let buttonsHeight: ButtonsHeight = ButtonsHeight()
+    
     
     func addSubViewsToView() {
         view.addSubview(appNameLabel)
         appNameLabelConstrain()
         view.addSubview(applogo)
         applogoConstrain()
-        view.addSubview(bigStackView)
+        view.addSubview(buttonsView)
+        buttonsViewConstrain()
         view.addSubview(easybutton_and_scorelabel_stackView)
         easybutton_and_scorelabel_stackView_constrain()
         easybutton_and_scorelabel_stackView.addArrangedSubview(easyButton)
@@ -46,7 +53,7 @@ class HomeViewController : UIViewController {
     
     // App  Title
     let appNameLabel: UILabel = {
-        let appNameLabel = AppNameLabel(title: "Ultimate Brain Trainer")
+        let appNameLabel = AppNameLabel(title: "")
         appNameLabel.translatesAutoresizingMaskIntoConstraints = false
         return appNameLabel
     }()
@@ -62,14 +69,14 @@ class HomeViewController : UIViewController {
     
     // App Logo
     let applogo: UIImageView = {
-        let applogo = LogoCustomClass(logoimage: #imageLiteral(resourceName: "mbr-1014x792.png"))
+        let applogo = LogoCustomClass(logoimage: #imageLiteral(resourceName: "brainFartLogo"))
         applogo.translatesAutoresizingMaskIntoConstraints = false
         return applogo
     }()
     
     func applogoConstrain() {
         NSLayoutConstraint.activate([
-            applogo.topAnchor.constraint(equalTo: appNameLabel.bottomAnchor, constant: 5),
+            applogo.topAnchor.constraint(equalTo: appNameLabel.bottomAnchor, constant: 0),
             applogo.leadingAnchor.constraint(equalTo: appNameLabel.leadingAnchor),
             applogo.heightAnchor.constraint(equalToConstant: 150),
             applogo.trailingAnchor.constraint(equalTo: appNameLabel.trailingAnchor)
@@ -77,6 +84,27 @@ class HomeViewController : UIViewController {
     }
     
     
+    let buttonsView: UIView = {
+        let buttonsView = UIView(frame: .zero)
+        buttonsView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        buttonsView.layer.cornerRadius = 10
+        buttonsView.translatesAutoresizingMaskIntoConstraints = false
+        buttonsView.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        buttonsView.layer.shadowOffset = CGSize(width: 0, height: 3)
+        buttonsView.layer.shadowOpacity = 1.0
+        buttonsView.layer.shadowRadius = 10.0
+        buttonsView.layer.masksToBounds = false
+        return buttonsView
+    }()
+    
+    func buttonsViewConstrain() {
+        NSLayoutConstraint.activate([
+            buttonsView.topAnchor.constraint(equalTo: applogo.bottomAnchor, constant: 75),
+            buttonsView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+            buttonsView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50),
+            buttonsView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10)
+        ])
+    }
     
     
     let easybutton_and_scorelabel_stackView: UIStackView = {
@@ -90,20 +118,25 @@ class HomeViewController : UIViewController {
     
     func easybutton_and_scorelabel_stackView_constrain() {
         NSLayoutConstraint.activate([
-            easybutton_and_scorelabel_stackView.topAnchor.constraint(equalTo: applogo.bottomAnchor, constant: 30),
-            easybutton_and_scorelabel_stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            easybutton_and_scorelabel_stackView.heightAnchor.constraint(equalToConstant: view.frame.size.height / 6 ),
-            easybutton_and_scorelabel_stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)
+            easybutton_and_scorelabel_stackView.topAnchor.constraint(equalTo: buttonsView.topAnchor, constant: 20),
+            easybutton_and_scorelabel_stackView.leadingAnchor.constraint(equalTo: buttonsView.leadingAnchor, constant: 10),
+            easybutton_and_scorelabel_stackView.heightAnchor.constraint(equalToConstant: 150),
+            easybutton_and_scorelabel_stackView.trailingAnchor.constraint(equalTo: buttonsView.trailingAnchor, constant: -10)
         ])
     }
     
     
     let easyButton: UIButton = {
-        let easyButton = DifficultyLevelsCustomButton(title: "E A S Y", bgColor: .green)
+        let easyButton = DifficultyLevelsCustomButton(title: "E A S Y", bgColor: #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1))
         easyButton.translatesAutoresizingMaskIntoConstraints = false
         easyButton.setTitleColor(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), for: .normal)
+        easyButton.addTarget(self, action: #selector(easyButtonPressed), for: .touchUpInside)
         return easyButton
     }()
+    
+    @objc func easyButtonPressed() {
+        print("Easy Mode Activated")
+    }
     
     func easyButtonConstrain() {
         NSLayoutConstraint.activate([
@@ -142,20 +175,25 @@ class HomeViewController : UIViewController {
     
     func mediumbutton_and_scorelabel_stackView_constrain() {
         NSLayoutConstraint.activate([
-            mediumbutton_and_scorelabel_stackView.topAnchor.constraint(equalTo: easybutton_and_scorelabel_stackView.bottomAnchor, constant: 10),
-            mediumbutton_and_scorelabel_stackView.leadingAnchor.constraint(equalTo: easybutton_and_scorelabel_stackView.leadingAnchor),
-            mediumbutton_and_scorelabel_stackView.heightAnchor.constraint(equalToConstant: view.frame.size.height / 6 ),
-            mediumbutton_and_scorelabel_stackView.trailingAnchor.constraint(equalTo: easybutton_and_scorelabel_stackView.trailingAnchor)
+            mediumbutton_and_scorelabel_stackView.topAnchor.constraint(equalTo: easybutton_and_scorelabel_stackView.bottomAnchor, constant: 20),
+            mediumbutton_and_scorelabel_stackView.leadingAnchor.constraint(equalTo: buttonsView.leadingAnchor, constant: 10),
+            mediumbutton_and_scorelabel_stackView.heightAnchor.constraint(equalToConstant: 150),
+            mediumbutton_and_scorelabel_stackView.trailingAnchor.constraint(equalTo: buttonsView.trailingAnchor, constant: -10)
         ])
     }
     
     
     let mediumButton: UIButton = {
-        let mediumButton = DifficultyLevelsCustomButton(title: "M E D I U M", bgColor: .yellow)
+        let mediumButton = DifficultyLevelsCustomButton(title: "M E D I U M", bgColor: #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1))
         mediumButton.translatesAutoresizingMaskIntoConstraints = false
         mediumButton.setTitleColor(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), for: .normal)
+        mediumButton.addTarget(self, action: #selector(mediumButtonPressed), for: .touchUpInside)
         return mediumButton
     }()
+    
+    @objc func mediumButtonPressed() {
+           print("Medium Mode Activated")
+       }
     
     func mediumButtonConstrain() {
         NSLayoutConstraint.activate([
@@ -195,20 +233,25 @@ class HomeViewController : UIViewController {
     
     func hardbutton_and_scorelabel_stackView_constrain() {
         NSLayoutConstraint.activate([
-            hardbutton_and_scorelabel_stackView.topAnchor.constraint(equalTo: mediumbutton_and_scorelabel_stackView.bottomAnchor, constant: 10),
-            hardbutton_and_scorelabel_stackView.leadingAnchor.constraint(equalTo: mediumbutton_and_scorelabel_stackView.leadingAnchor),
-            hardbutton_and_scorelabel_stackView.heightAnchor.constraint(equalToConstant: view.frame.size.height / 6 ),
-            hardbutton_and_scorelabel_stackView.trailingAnchor.constraint(equalTo: mediumbutton_and_scorelabel_stackView.trailingAnchor)
+            hardbutton_and_scorelabel_stackView.topAnchor.constraint(equalTo: mediumbutton_and_scorelabel_stackView.bottomAnchor, constant: 20),
+            hardbutton_and_scorelabel_stackView.leadingAnchor.constraint(equalTo: buttonsView.leadingAnchor, constant: 10),
+            hardbutton_and_scorelabel_stackView.heightAnchor.constraint(equalToConstant:  150 ),
+            hardbutton_and_scorelabel_stackView.trailingAnchor.constraint(equalTo: buttonsView.trailingAnchor, constant: -10)
         ])
     }
     
     
     let hardButton: UIButton = {
-        let hardButton = DifficultyLevelsCustomButton(title: "H A R D", bgColor: .red)
+        let hardButton = DifficultyLevelsCustomButton(title: "H A R D", bgColor: #colorLiteral(red: 0.7291150689, green: 0.1028918102, blue: 0.08893487602, alpha: 1))
         hardButton.translatesAutoresizingMaskIntoConstraints = false
         hardButton.setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), for: .normal)
+        hardButton.addTarget(self, action: #selector(hardButtonPressed), for: .touchUpInside)
         return hardButton
     }()
+    
+    @objc func hardButtonPressed() {
+           print("Hard Mode Activated")
+       }
     
     func hardButtonConstrain() {
         NSLayoutConstraint.activate([

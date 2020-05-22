@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class AppNameLabel: UILabel {
     // custom initializers
@@ -16,6 +17,7 @@ class AppNameLabel: UILabel {
         super.init(frame: .zero)
         self.title = title
         self.setup()
+        logoDisplaySpeedAndText(view: self)
     }
     
 
@@ -31,9 +33,24 @@ class AppNameLabel: UILabel {
     func setup() {
         self.text = title
 //        backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        font = UIFont(name: "PingFangHK-Semibold", size: 30)
+        font = UIFont(name: "AvenirNextCondensed-Heavy", size: 40)
         textAlignment = .center
+        textColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
     }
+    
+    
+    // MARK: labbel animation
+       func logoDisplaySpeedAndText(view: UILabel) {
+           var counter = 0
+           // Looping ovet string
+           for charecters in "Ultimate Brain Trainer" {
+               Timer.scheduledTimer(withTimeInterval: 0.1 * Double(counter), repeats: false) { (timer) in
+                   view.text?.append(charecters)
+               }
+               counter += 1
+           }
+           
+       }
     
     
     
